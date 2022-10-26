@@ -15,7 +15,7 @@ const MediumCard = () => {
             <Image
               layout="fill"
               alt="getaways"
-              src="/../public/images/Outdoor-getaways.webp"
+              src="../public/images/Outdoor-getaways.WEBP"
               className="rounded-xl"
             />
           </div>

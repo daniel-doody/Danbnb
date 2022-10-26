@@ -6,6 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["links.papareact.com", "jsonkeeper.com"],
+    domains: ["links.papareact.com", "ibb.co", "jsonkeeper.com"],
   },
 };
