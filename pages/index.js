@@ -2,7 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Banner from "../components/Banner";
 import FirstSection from "../components/FirstSection";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+import LargeCard from "../components/LargeCard";
+import MediumCard from "../components/MediumCard";
+import SmallCard from "../components/SmallCard";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,9 +21,59 @@ export default function Home() {
       <Header />
       <Banner />
 
-      <main>
-        <FirstSection />
+      {/* Main section custom width */}
+      <main className="max-w-7xl mx-auto px-8 sm:px-16 bg-white">
+        <SmallCard />
+        <MediumCard />
+        <LargeCard
+          img="/../public/images/large-card.webp"
+          title="The Greatest Outdoors"
+          description="Wishlists curated by Danbnb."
+          buttonText="Get Inspired"
+        />
       </main>
+
+      <Footer />
     </div>
   );
 }
+
+//
+//
+//
+//
+//
+
+{
+  /* Pull data from the server: static render */
+}
+{
+  /* {exploreData?.map((item) => (
+            <SmallCard
+              key={item.location}
+              // img={item.img}
+              distance={item.distance}
+              location={item.location}
+            />
+          ))} */
+}
+
+//
+//
+//
+
+// export async function getStaticProps() {
+//   // pull JSON array:
+//   const exploreData = await fetch("./locations.json", {
+//     headers: {
+//       "Content-Type": "application/json",
+//       Accept: "application/json",
+//     },
+//   }).then((res) => res.json());
+
+//   return {
+//     props: {
+//       exploreData,
+//     },
+//   };
+// }
