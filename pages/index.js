@@ -26,7 +26,7 @@ export default function Home() {
         <SmallCard />
         <MediumCard />
         <LargeCard
-          img="/../public/images/large-card.webp"
+          img="https://links.papareact.com/4cj"
           title="The Greatest Outdoors"
           description="Wishlists curated by Danbnb."
           buttonText="Get Inspired"

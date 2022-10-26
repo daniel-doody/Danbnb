@@ -19,7 +19,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/London.webp"
+              src="https://links.papareact.com/5j2"
             />
           </div>
           {/* text */}
@@ -38,7 +38,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Hove.webp"
+              src="https://links.papareact.com/1to"
             />
           </div>
           {/* text */}
@@ -57,7 +57,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Manchester.webp"
+              src="https://links.papareact.com/40m"
             />
           </div>
           {/* text */}
@@ -76,7 +76,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Birkenhead.webp"
+              src="https://links.papareact.com/msp"
             />
           </div>
           {/* text */}
@@ -95,7 +95,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/York.webp"
+              src="https://links.papareact.com/2k3"
             />
           </div>
           {/* text */}
@@ -114,7 +114,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Cardiff.webp"
+              src="https://links.papareact.com/ynx"
             />
           </div>
           {/* text */}
@@ -133,7 +133,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Birkenhead.webp"
+              src="https://links.papareact.com/kji"
             />
           </div>
           {/* text */}
@@ -152,7 +152,7 @@ const SmallCard = ({ img, location, distance }) => {
               layout="fill"
               className="rounded-lg"
               alt="locations danbnb"
-              src="/../public/images/Newquay.webp"
+              src="https://links.papareact.com/41m"
             />
           </div>
           {/* text */}

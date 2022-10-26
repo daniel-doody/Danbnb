@@ -15,7 +15,7 @@ const MediumCard = () => {
             <Image
               layout="fill"
               alt="getaways"
-              src="/public/images/outdoor-getaways.jpg"
+              src="https://links.papareact.com/2io"
               className="rounded-xl"
             />
           </div>
@@ -28,7 +28,7 @@ const MediumCard = () => {
             <Image
               layout="fill"
               alt="getaways"
-              src="/../public/images/Unique-stays.webp"
+              src="https://links.papareact.com/q7j"
               className="rounded-xl"
             />
           </div>
@@ -41,7 +41,7 @@ const MediumCard = () => {
             <Image
               layout="fill"
               alt="getaways"
-              src="/../public/images/Entire-homes.webp"
+              src="https://links.papareact.com/s03"
               className="rounded-xl"
             />
           </div>
@@ -54,7 +54,7 @@ const MediumCard = () => {
             <Image
               layout="fill"
               alt="getaways"
-              src="/../public/images/Pet-allowed.webp"
+              src="https://links.papareact.com/8ix"
               className="rounded-xl"
             />
           </div>
