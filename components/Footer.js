@@ -3,32 +3,32 @@ import React from "react";
 const Footer = () => {
   return (
     <section
-      className="py-10 bg-gray-200 grid grid-cols-2 md:grid-cols-4 
+      className="py-16 bg-gray-200 grid grid-cols-2 md:grid-cols-4 
     gap-y-10 px-16"
     >
-      <div className="space-y-2 text-sm text-gray-900">
-        <h5 className="font-semibold">ABOUT</h5>
+      <div className="space-y-3 text-sm text-gray-900">
+        <h5 className="font-semibold pb-3 ">ABOUT</h5>
         {abouts.map((item) => (
           <p key={item}>{item}</p>
         ))}
       </div>
 
-      <div className="space-y-2 text-sm text-gray-900">
-        <h5 className="font-semibold">COMMUNITY</h5>
+      <div className="space-y-3 text-sm text-gray-900">
+        <h5 className="font-semibold pb-3">COMMUNITY</h5>
         {community.map((item) => (
           <p key={item}>{item}</p>
         ))}
       </div>
 
-      <div className="space-y-2 text-sm text-gray-900">
-        <h5 className="font-semibold">HOSTING</h5>
+      <div className="space-y-3 text-sm text-gray-900">
+        <h5 className="font-semibold pb-3">HOSTING</h5>
         {hosting.map((item) => (
           <p key={item}>{item}</p>
         ))}
       </div>
 
-      <div className="space-y-2 text-sm text-gray-900">
-        <h5 className="font-semibold">SUPPORT</h5>
+      <div className="space-y-3 pb-5 text-sm text-gray-900">
+        <h5 className="font-semibold pb-3">SUPPORT</h5>
         {support.map((item) => (
           <p key={item}>{item}</p>
         ))}

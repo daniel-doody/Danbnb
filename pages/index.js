@@ -34,6 +34,25 @@ export default function Home() {
       </main>
 
       <Footer />
+
+      <a
+        href="https://github.com/daniel-doody/Danbnb"
+        className="flex justify-center items-center text-black bg-gray-200 
+        pb-5 cursor-pointer"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <p className="mr-2">
+          Created by <strong>Daniel Doody</strong>
+        </p>
+        <Image
+          src="/../public/images/github-logo.png"
+          alt="github logo"
+          width="20px"
+          height="20px"
+          layout="fixed"
+        />
+      </a>
     </div>
   );
 }
