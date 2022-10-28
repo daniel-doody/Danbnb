@@ -1,17 +1,8 @@
-import React from "react";
 import Image from "next/image";
-import HeartIcon from "@heroicons/react/outline";
-import StarIcon from "@heroicons/react/solid";
+import { HeartIcon } from "@heroicons/react/24/outline";
+import { StarIcon } from "@heroicons/react/24/solid";
 
-export default function InfoCard({
-  img,
-  location,
-  title,
-  description,
-  star,
-  price,
-  total,
-}) {
+function InfoCard({ img, location, title, description, star, price, total }) {
   return (
     <div
       className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg 
@@ -31,7 +22,7 @@ export default function InfoCard({
       {/* Right side - Content */}
       <div className="flex flex-col grow pl-5">
         <div className="flex justify-between">
-          <p>{location}</p>
+          <p>Gorgeous unit in the city of {location}</p>
           <HeartIcon className="h-7 cursor-pointer" />
         </div>
 
@@ -40,15 +31,21 @@ export default function InfoCard({
         <p className="pt-2 text-sm text-gray-600 grow">{description}</p>
 
         {/* Lower Right div */}
-        <div className="flex justify-between items-end">
+        <div className="flex justify-between items-end pt-5">
           <p className="flex items-center">
             <StarIcon className="h-5 text-red-400" />
             {star}
           </p>
-          <div className="font-semibold text-lg pb-2 lg:text-2xl">{price}</div>
-          <div className="text-right font-extralight">{total}</div>
+          <div>
+            <p className="font-semibold text-lg pb-1 lg:text-2xl">{price}</p>
+            <p className="text-right text-gray-700 text-sm font-extralight">
+              {total}
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
+export default InfoCard;

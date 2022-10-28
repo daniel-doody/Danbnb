@@ -7,4 +7,10 @@ Next.js built in methods used:
 - getStaticProps
 - getServerSideProps
 
-Used SWR to retrieve the local json data.
+Packages:
+
+- SWR to retrieve the local json data.
+
+3rd Party Packages:
+
+- badwrap bar of progress
