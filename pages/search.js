@@ -50,7 +50,7 @@ export default function Search() {
             {numGuests} guest(s)!
           </p>
           <h1 className="text-2xl mt-4 mb-6 font-semibold">
-            Danbnb's in {formattedLocation()}:
+            Danbnb's in {location}:
           </h1>
           <div className="hidden md:inline-flex mb-5 whitespace-nowrap">
             {buttons.map((item) => (
