@@ -14,4 +14,8 @@ module.exports = {
       "DNS:www.jsonkeeper.com",
     ],
   },
+  env: {
+    mapbox_token:
+      "pk.eyJ1IjoiZGFuaWVsZG9vZHkiLCJhIjoiY2w5dDYwN2YyMXI4MzNvcDgwdm5qNXJ4cSJ9.vbmAVnfQ1p45Q9esPofpOA",
+  },
 };

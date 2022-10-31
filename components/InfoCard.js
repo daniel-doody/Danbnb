@@ -28,7 +28,9 @@ function InfoCard({ img, location, title, description, star, price, total }) {
 
         <h3 className="text-xl font-medium">{title}</h3>
         <div className="border-b-2 w-10 pt-2" />
-        <p className="pt-2 text-sm text-gray-600 grow">{description}</p>
+        <p className="hidden sm:inline-flex pt-2 text-sm text-gray-600 grow">
+          {description}
+        </p>
 
         {/* Lower Right div */}
         <div className="flex justify-between items-end pt-5">

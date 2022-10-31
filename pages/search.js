@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import InfoCard from "../components/InfoCard";
 import useSWR from "swr";
+import MapboxMap from "../components/MapboxMap";
 
 //
 
@@ -63,8 +64,7 @@ export default function Search() {
             ))}
           </div>
 
-          {/* 3:27:19 */}
-          {/* 3:49:48 */}
+          {/* MAP over our data: */}
           <div className="flex flex-col">
             {bnbArray.map(
               ({ img, location, title, description, star, price, total }) => (
@@ -81,6 +81,11 @@ export default function Search() {
               )
             )}
           </div>
+        </section>
+
+        {/* MAP section: */}
+        <section className="hidden lg:inline-flex lg:min-w-[600px]">
+          <MapboxMap bnbArray={bnbArray} />
         </section>
       </main>
 
